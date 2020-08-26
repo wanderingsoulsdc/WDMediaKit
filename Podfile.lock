@@ -1,0 +1,16 @@
+PODS:
+  - WDMediaKit (1.2.0)
+
+DEPENDENCIES:
+  - WDMediaKit (from `.`)
+
+EXTERNAL SOURCES:
+  WDMediaKit:
+    :path: "."
+
+SPEC CHECKSUMS:
+  WDMediaKit: 72301a814eb3ef82e25d98bb8a02c74befcedcc8
+
+PODFILE CHECKSUM: 3c211265bda92a7176f72d1ddb04ea744bd65689
+
+COCOAPODS: 1.8.4

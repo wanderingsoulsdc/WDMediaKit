@@ -1,0 +1,6 @@
+framework module WDMediaKit {
+  umbrella header "WDMediaKit.h"
+
+  export *
+  module * { export * }
+}

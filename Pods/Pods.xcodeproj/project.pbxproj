@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0738B9BCB305EC897C804489BEF54164 /* WDMediaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7913B5992C5712F05310C39892A0FB /* WDMediaKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B85850C4FBA733A3176BAAA1DF4ADA4 /* WDGPUImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E272D8FBBD25CBBF0454C8646FC1B /* WDGPUImageManager.m */; };
+		0E22C4B837CD6F0964FEEF3D252C2842 /* Pods-WDMediaKit-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBAA08E929D02DA0216260080F7A594 /* Pods-WDMediaKit-demo-dummy.m */; };
+		115237EFE5A7A4686541DC81794E9C37 /* WDGLTextureEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5BD5E45E1F55A525994F8BEF7494E2 /* WDGLTextureEffects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13B9E458A4E848988B7D767C4E9834C8 /* WDMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 255658CFD6EE742C41BC7FD98C7FE121 /* WDMediaItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DB1B938B98F438B52A16375DDE41FEE /* WDMediaDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6D6B39441A206087B68812B5678D6 /* WDMediaDecoder.m */; };
+		1EFE39F3CB8CB0045BB1DACA10AC2CDD /* WDGLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BE806EB81FE8DF200659B3743347B81B /* WDGLUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22DFB07509B8CBB3D0F6E55A2AE8A441 /* WDMediaReaderSampleBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 16897B1CA315C8FF1740B9C7693A0420 /* WDMediaReaderSampleBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24025522BD43F05B52CD1C205DCD726E /* WDGLTextureFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 172CF4A28C344B88EA5485949003A1F6 /* WDGLTextureFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27AF62FBD46DB52E91E45166D27FB7FD /* WDMediaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E80D3E2CBA57752C19350E2C4DB9CB9 /* WDMediaKit-dummy.m */; };
+		3005152BB4D2739345A7CF02A26C41D6 /* WDGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C5AE387CAA58123715DCAD8A6B739C /* WDGLContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33EB6E1F81ADACC7BF3F0289AFF869E2 /* WDMediaReaderSampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BC2E794978EDC2F57EFB6F21954C35 /* WDMediaReaderSampleBuffer.m */; };
+		35FD534C492D60164DBFF6A3685FD902 /* WDGLTextureBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 537DA92AF37B4E7FF953D174C77240AC /* WDGLTextureBase.m */; };
+		3784CE9A5DF083A114053B4E67328657 /* WDMediaEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F17D06282A42EAE8113DC4FA99801E53 /* WDMediaEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AE75E7295D4D43C84BD27739EDDA8CE /* WDMediaQueuePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F56BEEF669EBF3AF474D619C547457 /* WDMediaQueuePlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DD6D8154703440389DF2EBDF9C562C4 /* WDMeidaExportManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02ABEF8BC66FD255A1E9BAC508941EE5 /* WDMeidaExportManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40873EE22D5D80A5C161AEC0924AFC51 /* WDGLTextureProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = A834423D9C736B97DDAEF288E2CC7199 /* WDGLTextureProcessing.m */; };
+		49ABA88E4D623FB9CAAD79DC924AE2EC /* WDGLTextureProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5F983C000ACEA65DCF27DBC6E77EA9 /* WDGLTextureProgram.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F3B94349E68BCE87A023F427C9C54FF /* WDAudioCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6C71672B9AEA3B92C26AF817DC0F2D /* WDAudioCapture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		521ED38CDA278EA2F6D5139D92BFE4F9 /* WDMediaKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E62A4A2954556E5EF1C0E32520A73ED7 /* WDMediaKit.m */; };
+		524514EB27BAD80514874F5461398891 /* WDGLTextureProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = C2201517931572AA069EAD7884D3942E /* WDGLTextureProcessing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D88C884857A0AE2165B37E8597C005E /* WDGLTextureOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 080AACB6E49623C17AE317FB613B3FDD /* WDGLTextureOutput.m */; };
+		66EC2BB7BB9D0D12BC585EA39CCBBB36 /* WDMediaDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA4B04B6896093FE68C7B71443AE06B /* WDMediaDecoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B365D165D0ACED0E5E0200BC5FEA73B /* WDGLTextureOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = E790F78321A47854300EF94D41785D8E /* WDGLTextureOverlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		753A19F6F1683847992A56D3EB4B0C1D /* WDGLTextureOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 232BE04285A98AB983637E1AE8CC5702 /* WDGLTextureOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		764703A8915B6207E0834BF6BB88E32B /* WDGPUImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEF8C919718BB0EA4D7765EBFA5114C /* WDGPUImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B780DE68E3125D6DBA810C584332EE4 /* WDGLOffscreenRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D87AFF7739301F272F76620AEDA1E90 /* WDGLOffscreenRender.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C881B23E4FFEBE6475369B71C1BC6FC /* WDGLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE02BE29DBF23E33A151B74B2A1B9E9 /* WDGLUtils.m */; };
+		880D57419CC62828A04D62C13AD59DEC /* WDMeidaExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B768195FD25F258F00ED16606F49AF6 /* WDMeidaExportManager.m */; };
+		8A5C6CCBC886B1B4C6EBE615CE86AA40 /* WDMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EB8C6B839152B57FF285DF53DEBDB4 /* WDMediaPlayer.m */; };
+		8CB82140F7CB132BC65305C70EE78751 /* WDMediaEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BFCE3F6FACF379A54CB69489BFF161 /* WDMediaEncoder.m */; };
+		933CE3C256204C1F17E670AF186A2A3A /* WDVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 913F1F55829BC9D390E1B6D3A20DACF3 /* WDVideoCapture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6856C49F9FD8F120023BFD42AE9C8FE /* WDGLTextureFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 823484CB07F5D2819CEFEEFFFDDA287E /* WDGLTextureFilter.m */; };
+		A8AE05FC586F803A67DD4BEE36ADDD88 /* WDCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B9F8D956A0750ABB8CA8D79A923AD8 /* WDCommonDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8B05B05B844746601E64489DEBA631A /* WDAudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE9C4B501BC2B54B9D5DE9BA49C5F80 /* WDAudioCapture.m */; };
+		AD679492212E445BDD4EFC1A85529D71 /* WDGLTextureProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B95EF4137B2068E07BAFFB45A0697 /* WDGLTextureProgram.m */; };
+		B149E6E0F8202EE947F8365D78D31E54 /* WDGLRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C110954EB98DE1033307F9BACC2F3 /* WDGLRenderView.m */; };
+		B9F7F6FE21253AE02ECF7173A76E43A5 /* WDMediaWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE65026239C17B98C814342F8E02B7A /* WDMediaWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0FF64CBF93611A64E3E1BA828C81E16 /* WDGLTextureBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA7007E046C3D80F4F90A32EC0F4ECB /* WDGLTextureBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C41A52913235B80BFD780EBD276D30B3 /* WDGLRenderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B79BB867C9F9A5475E06C004B4555C2A /* WDGLRenderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C79FC015D1D4AD2BB8E6EC0776AE8DED /* WDMediaCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = A31EDEFB76690ED0FE5CE72360995AF1 /* WDMediaCapture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC30F8B1769DA62310B182AFC76DB2B4 /* WDGLOffscreenRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F055C07CA6D50D0340E2AB2137142 /* WDGLOffscreenRender.m */; };
+		D1D6F674EE5D9DC436F0A047B9C525C4 /* WDMediaCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9710EF58D7F0FC62F2682CF95F71D785 /* WDMediaCapture.m */; };
+		D1E690477CEEDC034838A5E642BEF08F /* WDMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD300D42027896683B9EBF3F86D523 /* WDMediaItem.m */; };
+		D5E548A75C356B9FB954DD4DBBAEF2E4 /* WDGLTextureOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E905E82E06CDEF249A9AC15C5A78827 /* WDGLTextureOverlay.m */; };
+		DEB9524A9ED49FC9EEF9F01FC4B02612 /* WDGLTextureEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4320F5FDEF738C74DD523DBD4630DACA /* WDGLTextureEffects.m */; };
+		DF865C9C7177E69F397B167A4AF1E540 /* WDMediaReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1C634175DDD8D67F5B60C5C3BF5491 /* WDMediaReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E35146020B6E23D6EF8E3A801A0E3192 /* WDVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BCE6882D913687060A38E77A177F0 /* WDVideoCapture.m */; };
+		ED8FABCBA0BC7476FFB8F8D13E90AC0B /* WDMediaQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C81A84568914A9CBA8374B88AA392D /* WDMediaQueuePlayer.m */; };
+		F130712ECFB1E7904772D8A9D7171DC7 /* WDMediaWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA7C8E96E931F27CEE279362B0E72D /* WDMediaWriter.m */; };
+		F1DA6F9D699FF0A7BE010CAABCB0648B /* WDGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E138041382E118CE6C20C7E9858B0A /* WDGLContext.m */; };
+		F337F209F243B58D856AA1C057DF2DF4 /* WDMediaReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D808C460B1A2E1B8B690C8BF4C5D33C /* WDMediaReader.m */; };
+		F729E4B8540BB2FC710E317EE1E9F626 /* WDMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 844C9B2FDA1B3D042F0FFAA685BEE890 /* WDMediaPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E6CEEE69E0C04703C3B9E51A39BDAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD319D516CAA2DBF36C5B9435805A61C;
+			remoteInfo = WDMediaKit;
+		};
+		C86A6B7BE8A357643C5D0A2DB9DA5B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965DF1E3290BE1C74E0979568D4CF708;
+			remoteInfo = "WDMediaKit-WDMediaKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02ABEF8BC66FD255A1E9BAC508941EE5 /* WDMeidaExportManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMeidaExportManager.h; sourceTree = "<group>"; };
+		080AACB6E49623C17AE317FB613B3FDD /* WDGLTextureOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLTextureOutput.m; sourceTree = "<group>"; };
+		0B7913B5992C5712F05310C39892A0FB /* WDMediaKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDMediaKit.h; path = WDMediaKit/WDMediaKit.h; sourceTree = "<group>"; };
+		0CEF8C919718BB0EA4D7765EBFA5114C /* WDGPUImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGPUImageManager.h; sourceTree = "<group>"; };
+		0EA4B04B6896093FE68C7B71443AE06B /* WDMediaDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaDecoder.h; sourceTree = "<group>"; };
+		16897B1CA315C8FF1740B9C7693A0420 /* WDMediaReaderSampleBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaReaderSampleBuffer.h; sourceTree = "<group>"; };
+		172CF4A28C344B88EA5485949003A1F6 /* WDGLTextureFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLTextureFilter.h; sourceTree = "<group>"; };
+		1E905E82E06CDEF249A9AC15C5A78827 /* WDGLTextureOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLTextureOverlay.m; sourceTree = "<group>"; };
+		1FAA4A54E4EBCCAB42A5E4703D911AE7 /* Pods-WDMediaKit-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDMediaKit-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		232BE04285A98AB983637E1AE8CC5702 /* WDGLTextureOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLTextureOutput.h; sourceTree = "<group>"; };
+		255658CFD6EE742C41BC7FD98C7FE121 /* WDMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaItem.h; sourceTree = "<group>"; };
+		2BC6D6B39441A206087B68812B5678D6 /* WDMediaDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaDecoder.m; sourceTree = "<group>"; };
+		30B9F8D956A0750ABB8CA8D79A923AD8 /* WDCommonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDCommonDefine.h; sourceTree = "<group>"; };
+		32989B4F2BC628B5B6527C6202B20B08 /* WDMediaKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WDMediaKit.bundle; path = "WDMediaKit-WDMediaKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C5AE387CAA58123715DCAD8A6B739C /* WDGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLContext.h; sourceTree = "<group>"; };
+		3B1C634175DDD8D67F5B60C5C3BF5491 /* WDMediaReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaReader.h; sourceTree = "<group>"; };
+		3B768195FD25F258F00ED16606F49AF6 /* WDMeidaExportManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMeidaExportManager.m; sourceTree = "<group>"; };
+		3BC664406DF04004768E6B417BF77D4F /* Pods-WDMediaKit-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDMediaKit-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4320F5FDEF738C74DD523DBD4630DACA /* WDGLTextureEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLTextureEffects.m; sourceTree = "<group>"; };
+		45E138041382E118CE6C20C7E9858B0A /* WDGLContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLContext.m; sourceTree = "<group>"; };
+		4DE02BE29DBF23E33A151B74B2A1B9E9 /* WDGLUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLUtils.m; sourceTree = "<group>"; };
+		4F7B95EF4137B2068E07BAFFB45A0697 /* WDGLTextureProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLTextureProgram.m; sourceTree = "<group>"; };
+		537DA92AF37B4E7FF953D174C77240AC /* WDGLTextureBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLTextureBase.m; sourceTree = "<group>"; };
+		53BC2E794978EDC2F57EFB6F21954C35 /* WDMediaReaderSampleBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaReaderSampleBuffer.m; sourceTree = "<group>"; };
+		59BDECB4DEC374178CF4D005BBD02DF9 /* MediaKit_LUT.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MediaKit_LUT.bundle; path = WDMediaKit/WDMediaKit/Assets/MediaKit_LUT.bundle; sourceTree = "<group>"; };
+		59DC46E1274B2778B1D0E1166E4CF5AC /* libPods-WDMediaKit-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WDMediaKit-demo.a"; path = "libPods-WDMediaKit-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3F055C07CA6D50D0340E2AB2137142 /* WDGLOffscreenRender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLOffscreenRender.m; sourceTree = "<group>"; };
+		5C5F983C000ACEA65DCF27DBC6E77EA9 /* WDGLTextureProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLTextureProgram.h; sourceTree = "<group>"; };
+		5D808C460B1A2E1B8B690C8BF4C5D33C /* WDMediaReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaReader.m; sourceTree = "<group>"; };
+		697CBF87C42B5652E274BDE6FCFC68A5 /* WDMediaKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDMediaKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6BE65026239C17B98C814342F8E02B7A /* WDMediaWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaWriter.h; sourceTree = "<group>"; };
+		6D87AFF7739301F272F76620AEDA1E90 /* WDGLOffscreenRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLOffscreenRender.h; sourceTree = "<group>"; };
+		6F8C110954EB98DE1033307F9BACC2F3 /* WDGLRenderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLRenderView.m; sourceTree = "<group>"; };
+		716EDD3016F4F5662D3C342C4CDAAA0F /* Pods-WDMediaKit-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDMediaKit-demo-resources.sh"; sourceTree = "<group>"; };
+		823484CB07F5D2819CEFEEFFFDDA287E /* WDGLTextureFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLTextureFilter.m; sourceTree = "<group>"; };
+		844C9B2FDA1B3D042F0FFAA685BEE890 /* WDMediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaPlayer.h; sourceTree = "<group>"; };
+		8DA7007E046C3D80F4F90A32EC0F4ECB /* WDGLTextureBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLTextureBase.h; sourceTree = "<group>"; };
+		913F1F55829BC9D390E1B6D3A20DACF3 /* WDVideoCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDVideoCapture.h; sourceTree = "<group>"; };
+		91F56BEEF669EBF3AF474D619C547457 /* WDMediaQueuePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaQueuePlayer.h; sourceTree = "<group>"; };
+		969E272D8FBBD25CBBF0454C8646FC1B /* WDGPUImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGPUImageManager.m; sourceTree = "<group>"; };
+		9710EF58D7F0FC62F2682CF95F71D785 /* WDMediaCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaCapture.m; sourceTree = "<group>"; };
+		9ACD300D42027896683B9EBF3F86D523 /* WDMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaItem.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E80D3E2CBA57752C19350E2C4DB9CB9 /* WDMediaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDMediaKit-dummy.m"; sourceTree = "<group>"; };
+		A0FA7C8E96E931F27CEE279362B0E72D /* WDMediaWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaWriter.m; sourceTree = "<group>"; };
+		A2BFCE3F6FACF379A54CB69489BFF161 /* WDMediaEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaEncoder.m; sourceTree = "<group>"; };
+		A31EDEFB76690ED0FE5CE72360995AF1 /* WDMediaCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaCapture.h; sourceTree = "<group>"; };
+		A39C9139B3EBD20A0943C8F1B82DB743 /* ResourceBundle-WDMediaKit-WDMediaKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WDMediaKit-WDMediaKit-Info.plist"; sourceTree = "<group>"; };
+		A5C81A84568914A9CBA8374B88AA392D /* WDMediaQueuePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaQueuePlayer.m; sourceTree = "<group>"; };
+		A79A3539C5A8427ABCF62720387E3409 /* Pods-WDMediaKit-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDMediaKit-demo.release.xcconfig"; sourceTree = "<group>"; };
+		A834423D9C736B97DDAEF288E2CC7199 /* WDGLTextureProcessing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDGLTextureProcessing.m; sourceTree = "<group>"; };
+		AB6C71672B9AEA3B92C26AF817DC0F2D /* WDAudioCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDAudioCapture.h; sourceTree = "<group>"; };
+		B79BB867C9F9A5475E06C004B4555C2A /* WDGLRenderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLRenderView.h; sourceTree = "<group>"; };
+		BE806EB81FE8DF200659B3743347B81B /* WDGLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLUtils.h; sourceTree = "<group>"; };
+		C15F9FC38A850FA59F4D73235AD87A48 /* WDMediaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDMediaKit-prefix.pch"; sourceTree = "<group>"; };
+		C2201517931572AA069EAD7884D3942E /* WDGLTextureProcessing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLTextureProcessing.h; sourceTree = "<group>"; };
+		CCBAA08E929D02DA0216260080F7A594 /* Pods-WDMediaKit-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDMediaKit-demo-dummy.m"; sourceTree = "<group>"; };
+		CF5BD5E45E1F55A525994F8BEF7494E2 /* WDGLTextureEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLTextureEffects.h; sourceTree = "<group>"; };
+		D1EB8C6B839152B57FF285DF53DEBDB4 /* WDMediaPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDMediaPlayer.m; sourceTree = "<group>"; };
+		D4E31F89925E7A23FBBFF49D6A1F6444 /* Pods-WDMediaKit-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDMediaKit-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D51762AE777CA4FA924AF2EB00877252 /* WDMediaKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDMediaKit.xcconfig; sourceTree = "<group>"; };
+		DBE9C4B501BC2B54B9D5DE9BA49C5F80 /* WDAudioCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDAudioCapture.m; sourceTree = "<group>"; };
+		E62A4A2954556E5EF1C0E32520A73ED7 /* WDMediaKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDMediaKit.m; path = WDMediaKit/WDMediaKit.m; sourceTree = "<group>"; };
+		E790F78321A47854300EF94D41785D8E /* WDGLTextureOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDGLTextureOverlay.h; sourceTree = "<group>"; };
+		EE6BCE6882D913687060A38E77A177F0 /* WDVideoCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDVideoCapture.m; sourceTree = "<group>"; };
+		F17D06282A42EAE8113DC4FA99801E53 /* WDMediaEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDMediaEncoder.h; sourceTree = "<group>"; };
+		F46D05B7A51DB882EB9CCD1869ACC238 /* libWDMediaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWDMediaKit.a; path = libWDMediaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB1049A52B9C278F36EBBDC7742D440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80837ADEF6CA9762D3B7188346917CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFC0EF3393C404FC94C9EB349C04913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFF0970AFCCFDBB74E950434A676B88 /* WDMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				844C9B2FDA1B3D042F0FFAA685BEE890 /* WDMediaPlayer.h */,
+				D1EB8C6B839152B57FF285DF53DEBDB4 /* WDMediaPlayer.m */,
+				91F56BEEF669EBF3AF474D619C547457 /* WDMediaQueuePlayer.h */,
+				A5C81A84568914A9CBA8374B88AA392D /* WDMediaQueuePlayer.m */,
+				A441EE2E7B3D58A5CF1E9D8CA2787EAC /* Render */,
+			);
+			name = WDMediaPlayer;
+			path = WDMediaPlayer;
+			sourceTree = "<group>";
+		};
+		0EF6AC91AC3AAC27942094D8C3CCD435 /* WDGPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				0CEF8C919718BB0EA4D7765EBFA5114C /* WDGPUImageManager.h */,
+				969E272D8FBBD25CBBF0454C8646FC1B /* WDGPUImageManager.m */,
+				8733879AD8E4C6B1BBD1A0DAB918DAC5 /* WDGLTextureProcessing */,
+			);
+			name = WDGPUImage;
+			path = WDGPUImage;
+			sourceTree = "<group>";
+		};
+		17BFDB6FB11E9D0B01547819B7A8E846 /* Pods-WDMediaKit-demo */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA4A54E4EBCCAB42A5E4703D911AE7 /* Pods-WDMediaKit-demo-acknowledgements.markdown */,
+				D4E31F89925E7A23FBBFF49D6A1F6444 /* Pods-WDMediaKit-demo-acknowledgements.plist */,
+				CCBAA08E929D02DA0216260080F7A594 /* Pods-WDMediaKit-demo-dummy.m */,
+				716EDD3016F4F5662D3C342C4CDAAA0F /* Pods-WDMediaKit-demo-resources.sh */,
+				3BC664406DF04004768E6B417BF77D4F /* Pods-WDMediaKit-demo.debug.xcconfig */,
+				A79A3539C5A8427ABCF62720387E3409 /* Pods-WDMediaKit-demo.release.xcconfig */,
+			);
+			name = "Pods-WDMediaKit-demo";
+			path = "Target Support Files/Pods-WDMediaKit-demo";
+			sourceTree = "<group>";
+		};
+		1D85221D8D710794C42B3474C85204ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17BFDB6FB11E9D0B01547819B7A8E846 /* Pods-WDMediaKit-demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2606B532E90E7284B64F4E7FADE0C073 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39C9139B3EBD20A0943C8F1B82DB743 /* ResourceBundle-WDMediaKit-WDMediaKit-Info.plist */,
+				D51762AE777CA4FA924AF2EB00877252 /* WDMediaKit.xcconfig */,
+				9E80D3E2CBA57752C19350E2C4DB9CB9 /* WDMediaKit-dummy.m */,
+				C15F9FC38A850FA59F4D73235AD87A48 /* WDMediaKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/WDMediaKit";
+			sourceTree = "<group>";
+		};
+		2AA213DEC197ABB670C36FB4E20E3E3F /* WDMediaSource */ = {
+			isa = PBXGroup;
+			children = (
+				A31EDEFB76690ED0FE5CE72360995AF1 /* WDMediaCapture.h */,
+				9710EF58D7F0FC62F2682CF95F71D785 /* WDMediaCapture.m */,
+				509CA3ADAAED0AB957DA48078405633D /* Camera */,
+				CD5367190D221C91FD7D9235A9908EAD /* Micphone */,
+			);
+			name = WDMediaSource;
+			path = WDMediaSource;
+			sourceTree = "<group>";
+		};
+		2BB43E4522BCB3CC8AD8C32B033A6753 /* WDMediaKit */ = {
+			isa = PBXGroup;
+			children = (
+				8722B0FD2D8393A298126D2A0E1A104E /* Classes */,
+			);
+			name = WDMediaKit;
+			path = WDMediaKit/WDMediaKit;
+			sourceTree = "<group>";
+		};
+		2CF3F7613F8B702881B7A3C72D98CB53 /* WDMediaKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B7913B5992C5712F05310C39892A0FB /* WDMediaKit.h */,
+				E62A4A2954556E5EF1C0E32520A73ED7 /* WDMediaKit.m */,
+				CFC6D2CE2A53EC72B9B947B1CCACE371 /* Pod */,
+				69E1F099F3FA232D3A16DD3CB628CFCA /* Resources */,
+				2606B532E90E7284B64F4E7FADE0C073 /* Support Files */,
+				2BB43E4522BCB3CC8AD8C32B033A6753 /* WDMediaKit */,
+			);
+			name = WDMediaKit;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4E49C3604C38A0C25D595719CA3A229E /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7007E046C3D80F4F90A32EC0F4ECB /* WDGLTextureBase.h */,
+				537DA92AF37B4E7FF953D174C77240AC /* WDGLTextureBase.m */,
+				CF5BD5E45E1F55A525994F8BEF7494E2 /* WDGLTextureEffects.h */,
+				4320F5FDEF738C74DD523DBD4630DACA /* WDGLTextureEffects.m */,
+				172CF4A28C344B88EA5485949003A1F6 /* WDGLTextureFilter.h */,
+				823484CB07F5D2819CEFEEFFFDDA287E /* WDGLTextureFilter.m */,
+				232BE04285A98AB983637E1AE8CC5702 /* WDGLTextureOutput.h */,
+				080AACB6E49623C17AE317FB613B3FDD /* WDGLTextureOutput.m */,
+				E790F78321A47854300EF94D41785D8E /* WDGLTextureOverlay.h */,
+				1E905E82E06CDEF249A9AC15C5A78827 /* WDGLTextureOverlay.m */,
+			);
+			name = Filter;
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		509CA3ADAAED0AB957DA48078405633D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				913F1F55829BC9D390E1B6D3A20DACF3 /* WDVideoCapture.h */,
+				EE6BCE6882D913687060A38E77A177F0 /* WDVideoCapture.m */,
+			);
+			name = Camera;
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		69E1F099F3FA232D3A16DD3CB628CFCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59BDECB4DEC374178CF4D005BBD02DF9 /* MediaKit_LUT.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7B45C4EC8AFB13001C23C1913849AC82 /* WDMediaEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				F17D06282A42EAE8113DC4FA99801E53 /* WDMediaEncoder.h */,
+				A2BFCE3F6FACF379A54CB69489BFF161 /* WDMediaEncoder.m */,
+				6BE65026239C17B98C814342F8E02B7A /* WDMediaWriter.h */,
+				A0FA7C8E96E931F27CEE279362B0E72D /* WDMediaWriter.m */,
+				02ABEF8BC66FD255A1E9BAC508941EE5 /* WDMeidaExportManager.h */,
+				3B768195FD25F258F00ED16606F49AF6 /* WDMeidaExportManager.m */,
+			);
+			name = WDMediaEncoder;
+			path = WDMediaEncoder;
+			sourceTree = "<group>";
+		};
+		8722B0FD2D8393A298126D2A0E1A104E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0EF6AC91AC3AAC27942094D8C3CCD435 /* WDGPUImage */,
+				A87A2BABC94511748E3CA26E9A536793 /* WDMediaCodec */,
+				0CFF0970AFCCFDBB74E950434A676B88 /* WDMediaPlayer */,
+				2AA213DEC197ABB670C36FB4E20E3E3F /* WDMediaSource */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8733879AD8E4C6B1BBD1A0DAB918DAC5 /* WDGLTextureProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				30B9F8D956A0750ABB8CA8D79A923AD8 /* WDCommonDefine.h */,
+				BA4ED6F1EE279FBE958A1D0DAAEB67F3 /* Classes */,
+			);
+			name = WDGLTextureProcessing;
+			path = WDGLTextureProcessing;
+			sourceTree = "<group>";
+		};
+		8802FBDF3186FD2F02EFBA4F632C0EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59DC46E1274B2778B1D0E1166E4CF5AC /* libPods-WDMediaKit-demo.a */,
+				F46D05B7A51DB882EB9CCD1869ACC238 /* libWDMediaKit.a */,
+				32989B4F2BC628B5B6527C6202B20B08 /* WDMediaKit.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A441EE2E7B3D58A5CF1E9D8CA2787EAC /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				39C5AE387CAA58123715DCAD8A6B739C /* WDGLContext.h */,
+				45E138041382E118CE6C20C7E9858B0A /* WDGLContext.m */,
+				6D87AFF7739301F272F76620AEDA1E90 /* WDGLOffscreenRender.h */,
+				5A3F055C07CA6D50D0340E2AB2137142 /* WDGLOffscreenRender.m */,
+				B79BB867C9F9A5475E06C004B4555C2A /* WDGLRenderView.h */,
+				6F8C110954EB98DE1033307F9BACC2F3 /* WDGLRenderView.m */,
+			);
+			name = Render;
+			path = Render;
+			sourceTree = "<group>";
+		};
+		A87A2BABC94511748E3CA26E9A536793 /* WDMediaCodec */ = {
+			isa = PBXGroup;
+			children = (
+				255658CFD6EE742C41BC7FD98C7FE121 /* WDMediaItem.h */,
+				9ACD300D42027896683B9EBF3F86D523 /* WDMediaItem.m */,
+				FAE89F85503A10040C161FF0101A36E2 /* WDMediaDecoder */,
+				7B45C4EC8AFB13001C23C1913849AC82 /* WDMediaEncoder */,
+			);
+			name = WDMediaCodec;
+			path = WDMediaCodec;
+			sourceTree = "<group>";
+		};
+		BA4ED6F1EE279FBE958A1D0DAAEB67F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2201517931572AA069EAD7884D3942E /* WDGLTextureProcessing.h */,
+				A834423D9C736B97DDAEF288E2CC7199 /* WDGLTextureProcessing.m */,
+				5C5F983C000ACEA65DCF27DBC6E77EA9 /* WDGLTextureProgram.h */,
+				4F7B95EF4137B2068E07BAFFB45A0697 /* WDGLTextureProgram.m */,
+				BE806EB81FE8DF200659B3743347B81B /* WDGLUtils.h */,
+				4DE02BE29DBF23E33A151B74B2A1B9E9 /* WDGLUtils.m */,
+				4E49C3604C38A0C25D595719CA3A229E /* Filter */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD5367190D221C91FD7D9235A9908EAD /* Micphone */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C71672B9AEA3B92C26AF817DC0F2D /* WDAudioCapture.h */,
+				DBE9C4B501BC2B54B9D5DE9BA49C5F80 /* WDAudioCapture.m */,
+			);
+			name = Micphone;
+			path = Micphone;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB223F69C668FB014188B3D4A5699D52 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				8802FBDF3186FD2F02EFBA4F632C0EEB /* Products */,
+				1D85221D8D710794C42B3474C85204ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC6D2CE2A53EC72B9B947B1CCACE371 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				697CBF87C42B5652E274BDE6FCFC68A5 /* WDMediaKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE89F85503A10040C161FF0101A36E2 /* WDMediaDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				0EA4B04B6896093FE68C7B71443AE06B /* WDMediaDecoder.h */,
+				2BC6D6B39441A206087B68812B5678D6 /* WDMediaDecoder.m */,
+				3B1C634175DDD8D67F5B60C5C3BF5491 /* WDMediaReader.h */,
+				5D808C460B1A2E1B8B690C8BF4C5D33C /* WDMediaReader.m */,
+				16897B1CA315C8FF1740B9C7693A0420 /* WDMediaReaderSampleBuffer.h */,
+				53BC2E794978EDC2F57EFB6F21954C35 /* WDMediaReaderSampleBuffer.m */,
+			);
+			name = WDMediaDecoder;
+			path = WDMediaDecoder;
+			sourceTree = "<group>";
+		};
+		FB223F69C668FB014188B3D4A5699D52 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF3F7613F8B702881B7A3C72D98CB53 /* WDMediaKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0544F1207F403412406BBB8A5FE4ADD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8B95D964043D47EDE1D4225BD5B447 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3B94349E68BCE87A023F427C9C54FF /* WDAudioCapture.h in Headers */,
+				A8AE05FC586F803A67DD4BEE36ADDD88 /* WDCommonDefine.h in Headers */,
+				3005152BB4D2739345A7CF02A26C41D6 /* WDGLContext.h in Headers */,
+				7B780DE68E3125D6DBA810C584332EE4 /* WDGLOffscreenRender.h in Headers */,
+				C41A52913235B80BFD780EBD276D30B3 /* WDGLRenderView.h in Headers */,
+				C0FF64CBF93611A64E3E1BA828C81E16 /* WDGLTextureBase.h in Headers */,
+				115237EFE5A7A4686541DC81794E9C37 /* WDGLTextureEffects.h in Headers */,
+				24025522BD43F05B52CD1C205DCD726E /* WDGLTextureFilter.h in Headers */,
+				753A19F6F1683847992A56D3EB4B0C1D /* WDGLTextureOutput.h in Headers */,
+				6B365D165D0ACED0E5E0200BC5FEA73B /* WDGLTextureOverlay.h in Headers */,
+				524514EB27BAD80514874F5461398891 /* WDGLTextureProcessing.h in Headers */,
+				49ABA88E4D623FB9CAAD79DC924AE2EC /* WDGLTextureProgram.h in Headers */,
+				1EFE39F3CB8CB0045BB1DACA10AC2CDD /* WDGLUtils.h in Headers */,
+				764703A8915B6207E0834BF6BB88E32B /* WDGPUImageManager.h in Headers */,
+				C79FC015D1D4AD2BB8E6EC0776AE8DED /* WDMediaCapture.h in Headers */,
+				66EC2BB7BB9D0D12BC585EA39CCBBB36 /* WDMediaDecoder.h in Headers */,
+				3784CE9A5DF083A114053B4E67328657 /* WDMediaEncoder.h in Headers */,
+				13B9E458A4E848988B7D767C4E9834C8 /* WDMediaItem.h in Headers */,
+				0738B9BCB305EC897C804489BEF54164 /* WDMediaKit.h in Headers */,
+				F729E4B8540BB2FC710E317EE1E9F626 /* WDMediaPlayer.h in Headers */,
+				3AE75E7295D4D43C84BD27739EDDA8CE /* WDMediaQueuePlayer.h in Headers */,
+				DF865C9C7177E69F397B167A4AF1E540 /* WDMediaReader.h in Headers */,
+				22DFB07509B8CBB3D0F6E55A2AE8A441 /* WDMediaReaderSampleBuffer.h in Headers */,
+				B9F7F6FE21253AE02ECF7173A76E43A5 /* WDMediaWriter.h in Headers */,
+				3DD6D8154703440389DF2EBDF9C562C4 /* WDMeidaExportManager.h in Headers */,
+				933CE3C256204C1F17E670AF186A2A3A /* WDVideoCapture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9456923452758F5EBCBD6CDF6BD772C0 /* Pods-WDMediaKit-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF9CD76EE96BE53796B83F6045BE68E /* Build configuration list for PBXNativeTarget "Pods-WDMediaKit-demo" */;
+			buildPhases = (
+				0544F1207F403412406BBB8A5FE4ADD5 /* Headers */,
+				0E6CEA76AFDFF28929C2C5292E63E2F8 /* Sources */,
+				80837ADEF6CA9762D3B7188346917CAD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E51DEEF64E388A503E85C4A7A2CFD497 /* PBXTargetDependency */,
+			);
+			name = "Pods-WDMediaKit-demo";
+			productName = "Pods-WDMediaKit-demo";
+			productReference = 59DC46E1274B2778B1D0E1166E4CF5AC /* libPods-WDMediaKit-demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		965DF1E3290BE1C74E0979568D4CF708 /* WDMediaKit-WDMediaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488725D00EC20B01E213F197651E735B /* Build configuration list for PBXNativeTarget "WDMediaKit-WDMediaKit" */;
+			buildPhases = (
+				EE5199952BD8DB4CFF3D08FD19347021 /* Sources */,
+				7AB1049A52B9C278F36EBBDC7742D440 /* Frameworks */,
+				1AD8E8BCBF36753374A0FBBF4FE69D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WDMediaKit-WDMediaKit";
+			productName = "WDMediaKit-WDMediaKit";
+			productReference = 32989B4F2BC628B5B6527C6202B20B08 /* WDMediaKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DD319D516CAA2DBF36C5B9435805A61C /* WDMediaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275FE702D3E9D97ED591C9802F849C55 /* Build configuration list for PBXNativeTarget "WDMediaKit" */;
+			buildPhases = (
+				ED8B95D964043D47EDE1D4225BD5B447 /* Headers */,
+				39116CDEA89F8CFF3F6C53E103CC2BF3 /* Sources */,
+				FDFC0EF3393C404FC94C9EB349C04913 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3A8F71CB1EB02946A104A63402C08D /* PBXTargetDependency */,
+			);
+			name = WDMediaKit;
+			productName = WDMediaKit;
+			productReference = F46D05B7A51DB882EB9CCD1869ACC238 /* libWDMediaKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8802FBDF3186FD2F02EFBA4F632C0EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9456923452758F5EBCBD6CDF6BD772C0 /* Pods-WDMediaKit-demo */,
+				DD319D516CAA2DBF36C5B9435805A61C /* WDMediaKit */,
+				965DF1E3290BE1C74E0979568D4CF708 /* WDMediaKit-WDMediaKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD8E8BCBF36753374A0FBBF4FE69D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6CEA76AFDFF28929C2C5292E63E2F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E22C4B837CD6F0964FEEF3D252C2842 /* Pods-WDMediaKit-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39116CDEA89F8CFF3F6C53E103CC2BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B05B05B844746601E64489DEBA631A /* WDAudioCapture.m in Sources */,
+				F1DA6F9D699FF0A7BE010CAABCB0648B /* WDGLContext.m in Sources */,
+				CC30F8B1769DA62310B182AFC76DB2B4 /* WDGLOffscreenRender.m in Sources */,
+				B149E6E0F8202EE947F8365D78D31E54 /* WDGLRenderView.m in Sources */,
+				35FD534C492D60164DBFF6A3685FD902 /* WDGLTextureBase.m in Sources */,
+				DEB9524A9ED49FC9EEF9F01FC4B02612 /* WDGLTextureEffects.m in Sources */,
+				A6856C49F9FD8F120023BFD42AE9C8FE /* WDGLTextureFilter.m in Sources */,
+				5D88C884857A0AE2165B37E8597C005E /* WDGLTextureOutput.m in Sources */,
+				D5E548A75C356B9FB954DD4DBBAEF2E4 /* WDGLTextureOverlay.m in Sources */,
+				40873EE22D5D80A5C161AEC0924AFC51 /* WDGLTextureProcessing.m in Sources */,
+				AD679492212E445BDD4EFC1A85529D71 /* WDGLTextureProgram.m in Sources */,
+				7C881B23E4FFEBE6475369B71C1BC6FC /* WDGLUtils.m in Sources */,
+				0B85850C4FBA733A3176BAAA1DF4ADA4 /* WDGPUImageManager.m in Sources */,
+				D1D6F674EE5D9DC436F0A047B9C525C4 /* WDMediaCapture.m in Sources */,
+				1DB1B938B98F438B52A16375DDE41FEE /* WDMediaDecoder.m in Sources */,
+				8CB82140F7CB132BC65305C70EE78751 /* WDMediaEncoder.m in Sources */,
+				D1E690477CEEDC034838A5E642BEF08F /* WDMediaItem.m in Sources */,
+				27AF62FBD46DB52E91E45166D27FB7FD /* WDMediaKit-dummy.m in Sources */,
+				521ED38CDA278EA2F6D5139D92BFE4F9 /* WDMediaKit.m in Sources */,
+				8A5C6CCBC886B1B4C6EBE615CE86AA40 /* WDMediaPlayer.m in Sources */,
+				ED8FABCBA0BC7476FFB8F8D13E90AC0B /* WDMediaQueuePlayer.m in Sources */,
+				F337F209F243B58D856AA1C057DF2DF4 /* WDMediaReader.m in Sources */,
+				33EB6E1F81ADACC7BF3F0289AFF869E2 /* WDMediaReaderSampleBuffer.m in Sources */,
+				F130712ECFB1E7904772D8A9D7171DC7 /* WDMediaWriter.m in Sources */,
+				880D57419CC62828A04D62C13AD59DEC /* WDMeidaExportManager.m in Sources */,
+				E35146020B6E23D6EF8E3A801A0E3192 /* WDVideoCapture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5199952BD8DB4CFF3D08FD19347021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B3A8F71CB1EB02946A104A63402C08D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WDMediaKit-WDMediaKit";
+			target = 965DF1E3290BE1C74E0979568D4CF708 /* WDMediaKit-WDMediaKit */;
+			targetProxy = C86A6B7BE8A357643C5D0A2DB9DA5B6A /* PBXContainerItemProxy */;
+		};
+		E51DEEF64E388A503E85C4A7A2CFD497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDMediaKit;
+			target = DD319D516CAA2DBF36C5B9435805A61C /* WDMediaKit */;
+			targetProxy = 2E6CEEE69E0C04703C3B9E51A39BDAEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3653E37646FBD94D31B179AC020DFACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51762AE777CA4FA924AF2EB00877252 /* WDMediaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WDMediaKit";
+				IBSC_MODULE = WDMediaKit;
+				INFOPLIST_FILE = "Target Support Files/WDMediaKit/ResourceBundle-WDMediaKit-WDMediaKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WDMediaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A4911A206DC7C5FCAFDFD829B11763C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51762AE777CA4FA924AF2EB00877252 /* WDMediaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WDMediaKit/WDMediaKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WDMediaKit;
+				PRODUCT_NAME = WDMediaKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C36A22F2FEC46CFACD83C53795CF6778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51762AE777CA4FA924AF2EB00877252 /* WDMediaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WDMediaKit";
+				IBSC_MODULE = WDMediaKit;
+				INFOPLIST_FILE = "Target Support Files/WDMediaKit/ResourceBundle-WDMediaKit-WDMediaKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WDMediaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EF583B529138A1B8472EBEAF64697FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC664406DF04004768E6B417BF77D4F /* Pods-WDMediaKit-demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4F7348E7D75926A9FCFDE920FC177AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51762AE777CA4FA924AF2EB00877252 /* WDMediaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WDMediaKit/WDMediaKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WDMediaKit;
+				PRODUCT_NAME = WDMediaKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F736B88F547758EDAD46844F0EE977A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79A3539C5A8427ABCF62720387E3409 /* Pods-WDMediaKit-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275FE702D3E9D97ED591C9802F849C55 /* Build configuration list for PBXNativeTarget "WDMediaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4911A206DC7C5FCAFDFD829B11763C8 /* Debug */,
+				F4F7348E7D75926A9FCFDE920FC177AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488725D00EC20B01E213F197651E735B /* Build configuration list for PBXNativeTarget "WDMediaKit-WDMediaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36A22F2FEC46CFACD83C53795CF6778 /* Debug */,
+				3653E37646FBD94D31B179AC020DFACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF9CD76EE96BE53796B83F6045BE68E /* Build configuration list for PBXNativeTarget "Pods-WDMediaKit-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF583B529138A1B8472EBEAF64697FC5 /* Debug */,
+				F736B88F547758EDAD46844F0EE977A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

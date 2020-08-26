@@ -1,0 +1,37 @@
+{
+  "name": "WDMediaKit",
+  "version": "1.2.0",
+  "summary": "微店音视频处理SDK",
+  "homepage": "https://gitlab.vdian.net/mobile/WDMediaKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiyun": "qiyun@weidian.com"
+  },
+  "source": {
+    "git": "ssh://git@gitlab.vdian.net:60022/mobile/WDMediaKit.git",
+    "tag": "1.2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "resource_bundles": {
+    "WDMediaKit": [
+      "WDMediaKit/Assets/MediaKit_LUT.bundle"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "OpenGLES",
+    "MobileCoreServices"
+  ],
+  "public_header_files": "WDMediaKit/**/*.h",
+  "source_files": "WDMediaKit/**/*.{h,m, bundle}",
+  "resources": "WDMediaKit/WDMediaKit/Assets/MediaKit_LUT.bundle",
+  "extended": {
+    "cocoapods-binary-source-swithcer": "~> 1.0.0"
+  }
+}
